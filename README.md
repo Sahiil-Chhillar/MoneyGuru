@@ -54,14 +54,15 @@ npm start
 ```
 
 ## 📸 Screenshots
-### Home Page
-![Home Page](screenshots/home.png)
 
 ### Login Page
 ![Login Page](screenshots/login.png)
 
 ### SignUp Page
-![SignUp Page](screenshots/signup.png)
+![SignUp Page](screenshots/SignUp.png)
+
+### Home Page
+![Home Page](screenshots/home.png)
 
 ## 🤝 Contributing
 - Contributions are welcome! Feel free to open issues or pull requests.
