@@ -1,0 +1,115 @@
+/* General Layout */
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url('../Animation/gradient.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Left Section */
+.login-left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.login-title {
+  color: white;
+  font-weight: 300;
+  font-size: 4.5rem;
+  line-height: 1.2;
+  white-space: pre-wrap;
+}
+
+.login-title-highlight {
+  font-weight: 500;
+  font-size: 6.5rem;
+  color: #facc15;
+}
+
+/* Divider */
+/* .login-divider {
+  width: 2px;
+  height: 85%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: white;
+} */
+
+/* Right Section */
+.login-right {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  width: 60%;
+  height: 66%;
+  padding-top: 7rem;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.login-heading {
+  font-size: 3.5rem;
+  font-family: cursive;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: -2.5rem;
+}
+
+/* Inputs */
+.login-input {
+  width: 24rem;
+  height: 3rem;
+  padding-left: 1.5rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.login-input:focus {
+  outline: 2px solid white;
+  outline-offset: 4px;
+}
+
+/* Submit Button */
+.login-button {
+  width: 24rem;
+  height: 3rem;
+  background-color: #ca8a04; /* yellow-600 */
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Footer Link */
+.login-footer {
+  color: white;
+}
+.login-footer a {
+  color: #facc15;
+  font-weight: bold;
+  text-decoration: none;
+}
